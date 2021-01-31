@@ -7,6 +7,9 @@ Lite-server<br>
 express<br>
 compression<br>
 This app lets the user track their budget when connected to the internet as well as when they are offline.<br>
+# Offline operations
+When the User enters data such as deposits or withdrawls, the database will store them<br> 
+When the user gets back online, the app will update with the offline entries.<br>
 The user balance will be displayed at the top of the webpage.<br>
 The user can choose whether to add money to their budget and can subtract their budget too.<br>
 The user will enter data into the page with the amount of the item and the app will store it into a database.<br>
